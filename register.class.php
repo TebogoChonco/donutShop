@@ -57,7 +57,7 @@ class RegisterUser{
 		if($this->usernameExists() == FALSE){
 			array_push($this->stored_users, $this->new_user);
 			if(file_put_contents($this->storage, json_encode($this->stored_users, JSON_PRETTY_PRINT))){
-				return $this->success = "Your registration was successful";
+				return $this->success = "Your registration was successful. Please log in to proceed";
 			}else{
 				return $this->error = "Something went wrong, please try again";
 			}

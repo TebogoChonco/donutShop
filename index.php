@@ -3,8 +3,7 @@
 	if(isset($_POST['submit'])){
 		$user = new RegisterUser($_POST['username'], $_POST['password']);
 	}
-?>
-<?php
+
 	if(isset($_POST['submit1'])){
 		header('Location:login.php');
 	}

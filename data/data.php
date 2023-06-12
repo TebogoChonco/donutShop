@@ -4,82 +4,82 @@ $items = [
     [
         "name" => "Glazed donut",
         "price" => 4,
-       "image" => "./img/glazedDonut.png",
+       "image" => "img/glazedDonut.png",
     ], 
     [
         "name" => "Green donut", 
         "price" => 2,
-      //  "barcode" => 23111
+        "image" => "img/greenDonut.png",
     ], 
     [
         "name" => "Pink donut",
         "price" => 2,
-       // "barcode" => 14837
+        "image" => "img/pinkDonut.png",
     ],     
     [
         "name" => "Brown donut",
         "price" => 2,
-       // "barcode" => 30921
+        "image" => "img/chocolateDonut.png",
     ],     
     [
         "name" => "Blue donut",
         "price" => 2,
-       // "barcode" => 83120
+        "image" => "img/blueDonut.png",
     ],
     [
         "name" => "Caramel sauce",
         "price" => 2,
-       // "barcode" => 82180
+        "image" => "img/caramelSauce.png",
     ],
     [
         "name" => "Chocolate sauce",
         "price" => 2,
-       // "barcode" => 30299
+        "image" => "img/chocolate.png",
     ],
     [
         "name" => "Strawberry sauce",
         "price" => 2,
-       // "barcode" => 31204
+        "image" => "img/strawberry.png",
     ],
     [
         "name" => "Ebony n Ivory",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/ebonyAndIvory.png",
     ],
     [
         "name" => "Chocolate sprinkles",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/chocolateSprinkles.png",
     ],
     [
         "name" => "Sprinkles",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/sprinkles.png",
     ],
     [
         "name" => "Oreos",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/oreos.png",
     ],
     [
         "name" => "Nuts",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/nuts.png",
     ],
     [
         "name" => "White chocolate stuffing",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/whiteChocolate.png",
     ],
     [
         "name" => "Chocolate stuffing",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/chocolate.png",
     ],
     [
         "name" => "Strawberry stuffing",
         "price" => 2,
-       // "barcode" => 13204
+        "image" => "img/strawberry.png",
     ],
 ];
 ?>

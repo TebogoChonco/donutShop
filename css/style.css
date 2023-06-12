@@ -24,11 +24,30 @@ body {
   background-image: url(img/pile.png);
 }
 
+.account_content{
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+  display:flex;
+  flex-direction: row;
+  gap:100px;
+
+}
+.header a{
+  font-size: 15px;
+  color: #555;
+  border-style:outset;
+  padding: 2px;
+  border-color: rgb(186, 189, 134);
+  border-radius: 5px;
+}
+
 /* code for login and registartion */
 
 form, .content{
-	max-width: 400px;
-	min-height: 500px;
+	
 	margin: 50px auto;
 	border:  thin solid #e4e4e4;
 	padding: 40px 30px;
@@ -136,6 +155,10 @@ form button:active{
 .content main{
 	margin-top: 50px;
 }
+
+/* .menu{
+  background-image: url(img/background.jpg);
+} */
 
 .content main h3{
 

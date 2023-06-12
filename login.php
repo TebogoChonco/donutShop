@@ -3,8 +3,7 @@
 	if(isset($_POST['submit'])){
 		$user = new LoginUser($_POST['username'], $_POST['password']);
 	}
-?>
-<?php
+
 	if(isset($_POST['submit1'])){
 		header('Location:index.php');
 	}
@@ -19,6 +18,12 @@
 	<title>Log in form</title>
 </head>
 <body>
+
+<div class= "shop_logo">
+        <img src= "img/pile.png" alt="Pile of donuts">
+        <h1 class="logo">Dropping Donuts</h1>
+    </div>  
+    
 	<form action="" method="post" enctype="multipart/form-data" autocomplete="off">
 		<h2>Login Form</h2>
 		<h4>Both fields are <span>required</span></h4>

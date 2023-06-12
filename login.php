@@ -29,10 +29,10 @@
 		<h4>Both fields are <span>required</span></h4>
 
 		<label>Username</label>
-		<input type="text" name="username">
+		<input type="text" name="username" placeholder="Username">
 
 		<label>Password</label>
-		<input type="text" name="password">
+		<input type="text" name="password" placeholder="Password">
 
 		<button type="submit" name="submit">Log in</button>
         <button type="submit" name="submit1">Register</button>

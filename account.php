@@ -38,8 +38,10 @@
     </div> -->
 
 	</div>
-
-	<h1>Order Your Donut</h1>
+<div class="order">
+	<h2>Order Your Donut</h2>
+  <h2>Cart Total R<h2>
+</div>
     <div class="orderContainer">
       <form id="orderForm">
         <div class="form-group">
@@ -94,7 +96,20 @@
           <p>R2</p>
           </div>
 
-         
+          <div class="toppingList">
+          <input type="checkbox" id="ebonyAndIvory" name="toppings" value="ebonyAndIvory">
+          <label for="ebonyAndIvorys">Ebony And Ivory</label>
+          <img src= "img/ebonyAndIvory.png" alt="ebony And Ivory" width="100px">  
+          <p>R2</p>
+          </div>
+
+          <div class="toppingList">
+          <input type="checkbox" id="nuts" name="toppings" value="nuts">
+          <label for="nuts">Nuts</label>
+          <img src= "img/nuts.png" alt="nuts" width="100px">  
+          <p>R2</p>
+          </div>
+
         </div>
         
         <button type="submit">Place Order</button>

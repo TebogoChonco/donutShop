@@ -158,6 +158,12 @@ form button:active{
 	margin-top: 50px;
 }
 
+.order{
+	display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+
 .orderForm{
 	margin: 10px auto;
 	border:  thin solid #e4e4e4;

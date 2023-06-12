@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(244, 247, 184);
+}
+
+.logo {
+    font-size: 50px;
+    color: rgb(146, 106, 179);
+    justify-content: center;
+    font-family: cursive;
+}
+
+.shop_logo{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop_logo img{
+  width: 150px;
+}
+
+.icon {
+  background-image: url(img/pile.png);
+}
+
+/* code for login and registartion */
+
+form, .content{
+	max-width: 400px;
+	min-height: 500px;
+	margin: 50px auto;
+	border:  thin solid #e4e4e4;
+	padding: 40px 30px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+form h2{
+	margin-bottom: 10px;
+}
+
+form h4{
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+form h4 span{
+	color:  coral;
+	font-weight: bold;
+	text-decoration: underline;
+}
+form label{
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+form input, form textarea{
+	display: block;
+	width:  100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border:  thin solid #e4e4e4;
+	margin-bottom: 30px;
+}
+
+form select{
+	display: block;
+	width:  100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border:  thin solid #e4e4e4;
+	background-color: white;
+	color: #555;
+}
+
+form input:focus
+{
+	outline: none;
+	border: thin solid coral;
+}
+
+form textarea{
+	min-height: 150px;
+}
+
+form input::placeholder{
+	font-size: 16px;
+}
+
+form button{
+	background: #32749a;
+	color: white;
+	border: none;
+	padding: 15px;
+	width:  100%;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+form button:active{
+	background-color: green;
+}
+
+.error{
+	margin-top: 30px;
+	color: #af0c0c;
+}
+
+.success{
+	margin-top: 30px;
+	color: green;
+}
+
+.content header a{
+	text-decoration: none;
+	padding: 6px 20px;
+	border: thin solid #d4d4d4;
+	font-size: 14px;
+	font-weight: normal;
+	background: #e4e4e4;
+	color: #555;
+}
+
+ .content header{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 border-bottom: thin solid #e4e4e4;
+	 padding-bottom: 30px;
+ }
+
+.content main{
+	margin-top: 50px;
+}
+
+.content main h3{
+
+}
+
+
+/* .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.control_buttons {
+  font-size: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    margin: 5px;
+    padding: 30px;
+    background-color: rgb(214, 214, 214);
+}
+
+.item:hover {
+    background-color: gray;
+}
+
+.till__display {
+    margin: 2rem 25vw;
+    text-align: center;
+}
+
+.till__console {
+    padding: 1rem;
+    background-color: rgb(209, 135, 199);
+    color: rgb(3, 2, 3);
+    font-size: 1.25rem;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.checkout button {
+    margin: 1rem 25vw;
+    padding: 1rem;
+    background-color: rgb(119, 176, 186);
+    font-size: 1.25 rem;
+
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.login {
+    border: 2px solid #f1f1f1;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+  .login input {
+   
+   padding:3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  /* Set a style for all buttons 
+  .login button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ 
+  .login button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .cancelbtn {
+    width: auto;
+    padding: 2px;
+    background-color: #e1837d;
+  }
+  
+  .registerbtn {
+   
+    padding:2px;
+    background-color: #85e17d;
+  }
+ 
+ 
+  .container {
+    padding:8px;
+  }
+  
+ 
+  /*  Change styles for span and cancel button on extra small screens 
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }} */ 

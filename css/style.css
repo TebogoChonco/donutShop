@@ -42,7 +42,7 @@ body {
 
 /* code for login and registartion */
 
-form, .content{
+ .welcome{
 	max-width:300px;
 	min-height: auto;
 	margin: 10px auto;
@@ -165,11 +165,14 @@ form button:active{
 }
 
 .orderForm{
-	margin: 10px auto;
-	border:  thin solid #e4e4e4;
-	padding: 10px 30px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+width: 80%;
 	background-color:  rgb(243, 174, 148);
   border-radius: 6px;
  text-align: center;
+}
+
+.toppings {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
 }

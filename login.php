@@ -24,7 +24,7 @@
         <h1 class="logo">Dropping Donuts</h1>
     </div>  
     
-	<form action="" method="post" enctype="multipart/form-data" autocomplete="off">
+	<form class="welcome" action="" method="post" enctype="multipart/form-data" autocomplete="off">
 		<h2>Login Form</h2>
 		<h4>Both fields are <span>required</span></h4>
 

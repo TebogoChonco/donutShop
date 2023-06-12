@@ -45,8 +45,6 @@
     <div class="orderContainer">
       <form id="orderForm">
         <div class="form-group">
-        
-        <div class="form-group">
           <label for="flavor">Donut Filling:</label>
           <select id="flavor" name="flavor" required>
             <option value="">Select a filling</option>

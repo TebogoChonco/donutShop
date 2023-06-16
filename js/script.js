@@ -29,5 +29,5 @@
    console.log("Name: " + name);
    console.log("Flavor: " + flavor);
    console.log("Toppings: " + toppings.join(", "));
-   console.log("Total Price: $" +
+   console.log("Total Price: R" + "")
   };

@@ -1,4 +1,3 @@
-
 <?php 
 	session_start();
 	if(!isset($_SESSION['user'])){
@@ -33,16 +32,22 @@
         </div>
 
         <hr>
-   <!--  <div class="menu">
-    <button type="submit" name="submit1" value="redirect">Go to menu</button>
-    </div> -->
 
 	</div>
 <div class="order">
 	<h2>Order Your Donut</h2>
   <h2>Cart Total R<h2>
 </div>
-    <div class="orderContainer">
+
+<div class= "shop" id="shop"></div>
+<div class="shopping-cart" id="shopping-cart"></div>
+
+  <script src="script.js"></script>
+  <script src="cart.js"></script>
+</body>
+</html>
+
+   <div class="orderContainer">
       <form id="orderForm">
         <div class="form-group">
           <label for="flavor">Donut Filling:</label>
@@ -53,8 +58,8 @@
             <option value="vanilla">Vanilla R6</option>
             <option value="strawberry">Strawberry R6</option>
           </select>
-        </div>
-        
+      </form>
+
         <div class="form-group">
           <label for="toppings">Toppings:</label>
         <div class="toppings">  
@@ -64,7 +69,7 @@
           <label for="blueDonut">Blue donut</label>
           <img src= "img/blueDonut.png" alt="blue donut" width="100px">  
           <p>R2</p>
-          </div>
+        </div> 
 
           <div class="toppingList">
           <input type="checkbox" id="pinkDonut" name="toppings" value="pinkDonut">
@@ -107,14 +112,14 @@
           <img src= "img/nuts.png" alt="nuts" width="100px">  
           <p>R2</p>
           </div>
-
         </div>
+    </div> 
         
-        <button type="submit">Place Order</button>
+        <button type="submit2">Place Order</button>
 
 </body>
 
 <script src="js/script.js"></script>
-<script src="js/data.js"></script>
+<script src="data.js"></script>
 </html>
 
